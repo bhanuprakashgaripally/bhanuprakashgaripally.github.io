@@ -1,0 +1,273 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: BLACK;
+text-shadow: 0.5px 0.5px white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3.1rem;
+text-shadow: 0px 0px white
+    margin-bottom: 10px;
+}
+
+/* About, Experience & Projects, Gallery, Contact Pages */
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+/* Contact Section Enhancements */
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-buttons a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-buttons a.telegram {
+    background-color: #0088cc;
+}
+
+
+.contact-buttons a.linkedin {
+    background-color: #0077b5;
+}
+
+.contact-buttons a:hover {
+    opacity: 0.8;
+}
+/* Contact Section */
+#contact {
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+color: white;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+#form-status {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Experience & Projects Page Background */
+body.experience {
+    background: url('background9.jpg') no-repeat center center/cover;
+}
+
+/* Experience Section */
+#experience {
+    padding: 20px;
+    text-align: center;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.experience-item {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.experience-item p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Reset and Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Home Page Background */
+body.home {
+    background: url('background.jpg') no-repeat center center/cover;
+}
+
+/* About Page Background */
+body.about {
+    background: url('background8.jpg') no-repeat center center/cover;
+}
+
+/* Gallery Page Background */
+body.gallery {
+    background: url('background13.jpg') no-repeat center center/cover;
+}
+
+/* Contact Page Background */
+body.contact {
+    background: url('background6.jpg') no-repeat center center/cover;
+}
+
+/* Navigation */
+header {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+header nav ul li a:hover {
+    background: rgb(43, 95, 95);
+}
+
+/* Footer */
+footer {
+    background: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+		<li><a href="experience.html" target="_blank">Experience & Projects</a></li>
+                <li><a href="about.html" target="_blank">About Me</a></li>
+                <li><a href="gallery.html" target="_blank">Gallery</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Me</h1>
+    </header>
+
+    <section id="contact">
+        <p style="color:white">Email: bhanuprakashgaripally@gmail.com</p>
+
+        <div class="contact-buttons">
+            <a href="https://t.me/Bhanuprakash_Garipally" target="_blank" class="telegram">Telegram</a>
+
+            <a href="https://linkedin.com/in/bhanuprakash-garipally" target="_blank" class="linkedin">LinkedIn</a>
+        </div>
+    </section>
+ <form action="https://formspree.io/f/xeojndnb" method="POST" id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Send</button>
+    <p id="form-status"></p>
+</form>
+
+
+</body>
+</html>
