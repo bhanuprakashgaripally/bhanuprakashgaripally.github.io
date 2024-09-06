@@ -271,3 +271,48 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    /* Adjusting the grid layout for experience section */
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .contact-buttons a {
+        margin: 10px 0;
+    }
+
+    /* Adjust contact form */
+    #contact-form {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
