@@ -280,6 +280,7 @@ footer {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+    /* Adjusting navigation */
     header nav ul {
         flex-direction: column;
         align-items: center;
@@ -289,30 +290,97 @@ footer {
         margin: 10px 0;
     }
 
+    /* Hero Section */
     .hero {
         padding: 50px 20px;
+        background-size: cover;
     }
 
     .hero h2 {
         font-size: 2rem;
+        line-height: 1.2;
     }
 
-    /* Adjusting the grid layout for experience section */
+    /* General sections */
+    section {
+        padding: 15px;
+    }
+
+    /* Contact Section */
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-buttons a {
+        width: 80%;
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Contact form adjustment */
+    #contact-form {
+        width: 90%;
+        padding: 0;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Experience & Projects grid */
     .experience-grid {
         grid-template-columns: 1fr;
     }
 
-    .contact-buttons {
+    .experience-item {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    /* Footer adjustment */
+    footer {
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+/* For very small devices (up to 480px wide) */
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0;
+    }
+
+    header nav ul {
         flex-direction: column;
     }
 
-    .contact-buttons a {
-        margin: 10px 0;
+    header nav ul li {
+        margin: 5px 0;
     }
 
-    /* Adjust contact form */
-    #contact-form {
-        width: 100%;
-        padding: 0 10px;
+    .hero h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    /* Reduce padding for sections */
+    section {
+        padding: 10px;
+    }
+
+    /* Further reduce button size */
+    .contact-buttons a {
+        font-size: 0.9rem;
+    }
+
+    /* Contact form input adjustments */
+    #contact-form input,
+    #contact-form textarea {
+        font-size: 0.9rem;
     }
 }
+
